@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="">
+        <div class="side-menu border bg-white">             
+            <div class="nav-center">
+                <ul class="p-0 justify-content-center">
+                    <li (click)="navigateTo('chat/test')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/test') ? 'link_active' : ''"><mat-icon >person_outline</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/chats')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/chats') ? 'link_active' : ''"><mat-icon >chat</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/groups')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/groups') ? 'link_active' : ''"><mat-icon >group</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/contacts')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/contacts') ? 'link_active' : ''"><mat-icon >contacts</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/settings')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/settings') ? 'link_active' : ''"><mat-icon >settings</mat-icon></a>
+                    </li>
+                    <li >
+                        <a class="p-3 rounded"><mat-icon><img src="/assets/images/avatar-1.jpg" class="rounded-circle img-fluid"></mat-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>

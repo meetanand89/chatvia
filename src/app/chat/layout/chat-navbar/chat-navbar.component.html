@@ -1,0 +1,85 @@
+<!-- <div class="continer min-vh-100 border ">       
+    <div class="row">
+        <div class="layout-wrapper d-lg-flex">
+            <div class="flex-lg-column my-auto">    
+              <ul class="list-group">             
+                  <li class="list-group-item"><img src="/assets/images/logo.svg" class="img-fluid"></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row m">
+        <div class="layout-wrapper d-lg-flex ">
+            <div class="flex-lg-column my-auto">    
+              <ul class="list-group">             
+                  <li class="list-group-item" title="Profile"><mat-icon >person_outline</mat-icon></li>
+                  <li class="list-group-item" title="Chats" ><mat-icon> chat</mat-icon></li>
+                  <li class="list-group-item" title="Groups"><mat-icon>group</mat-icon></li>
+                  <li class="list-group-item" title="Contacts"><mat-icon> contacts</mat-icon></li>
+                  <li class="list-group-item" title="Settings"><mat-icon>settings</mat-icon></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="layout-wrapper d-lg-flex">
+            <div class="flex-lg-column my-auto">    
+              <ul class="list-group">             
+                  <li class="list-group-item"><mat-icon>language</mat-icon></li>
+                  <li class="list-group-item" title="Dark Mode"><mat-icon>brightness_3</mat-icon></li>
+                  <li class="list-group-item">
+                        <a>
+                          <img src="/assets/images/avatar-1.jpg" class="rounded-circle img-fluid">
+                        </a>
+                  </li>                  
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="row">
+    <div class="">
+        <div class="side-menu border bg-white">
+            <div class="text-center pt-1">
+                <a>
+                    <span>
+                        <img src="/assets/images/logo.svg" height="30">
+                    </span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <ul class="p-0 justify-content-center">
+                    <li (click)="navigateTo('chat/test')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/test') ? 'link_active' : ''"><mat-icon >person_outline</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/chats')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/chats') ? 'link_active' : ''"><mat-icon >chat</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/groups')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/groups') ? 'link_active' : ''"><mat-icon >group</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/contacts')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/contacts') ? 'link_active' : ''"><mat-icon >contacts</mat-icon></a>
+                    </li>
+                    <li (click)="navigateTo('chat/settings')">
+                        <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/settings') ? 'link_active' : ''"><mat-icon >settings</mat-icon></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="p-0">
+                    <li>
+                        <a class="p-3 rounded"><mat-icon>language</mat-icon></a>
+                    </li>
+                    <li>
+                        <a class="p-3 rounded"><mat-icon>brightness_3</mat-icon></a>
+                    </li>
+                    <li >
+                        <a class="p-3 rounded"><mat-icon><img src="/assets/images/avatar-1.jpg" class="rounded-circle img-fluid"></mat-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>

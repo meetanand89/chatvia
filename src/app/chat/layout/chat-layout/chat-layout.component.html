@@ -1,0 +1,92 @@
+<!-- <app-chat-header></app-chat-header> -->
+<!-- <app-chat-navbar></app-chat-navbar> -->
+<!-- <router-outlet></router-outlet> -->
+<!-- <app-chat-footer></app-chat-footer> -->
+<!-- <div class="container-fluid " >
+    <div class="row min-vh-100 ">
+        <div class="col  p-0 text-center border my-sidebar ">
+            
+            <app-chat-navbar></app-chat-navbar>
+        </div>
+        <div class="col bg-white border">
+            4
+            <app-test></app-test>
+        </div>
+        <div class="col p-0  bg-white border" >
+           7
+            <app-chat-content></app-chat-content>
+        </div>
+    </div>
+
+</div> -->
+
+
+<!-- <div class="container-fluid" style="display:flex " >
+    
+        <div class=" border p-0 text-center " style="min-width: 75px; max-width: 75px; height: 100vh;">
+            <app-chat-navbar></app-chat-navbar>
+        </div>
+        <div class="border" style="min-width: 380px; max-width: 380px; height: 100vh;">
+            
+            <app-test></app-test>
+        </div>
+        <div class="border p-0 w-100 " >
+            <app-chat-content></app-chat-content>
+        </div>
+    
+
+</div> -->
+
+<!-- arun -->
+<!-- <div class="container-fluid ">
+  <div class="row">
+    <div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-12">
+        <app-chat-navbar></app-chat-navbar>      
+    </div>
+    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+        <app-test></app-test>      
+    </div>
+    <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-6 col-sm-12">
+        <router-outlet></router-outlet>      
+    </div>
+  </div>
+</div> -->
+<!-- <div class="row">
+
+
+<div class="container-fluid ">
+    
+      <div class="">
+          <app-chat-navbar></app-chat-navbar>      
+      </div>
+      <div class="">
+          <app-test></app-test> 
+      </div>
+      <div class="">
+           <router-outlet></router-outlet>      
+      </div>
+    
+  </div>
+</div> -->
+
+    <div class="row layout"> 
+      <div class="col-md-1 nav-bar-tab">
+        <app-chat-navbar></app-chat-navbar>
+      </div>
+     
+      <div class="col-md-3  nav-bar-tab-content border">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="col border message-body-content">       
+        <!-- <router-outlet></router-outlet> -->
+        <app-chat-content></app-chat-content>
+      </div>
+      <div class="col-md-1 nav-bar-tab-bootom">
+        <app-chat-nav-bottom></app-chat-nav-bottom>
+      </div>
+    </div>
+
+    <!-- <app-chat-navbar></app-chat-navbar> -->
+
+<!-- <app-chat-navbar *ngIf="showNav"></app-chat-navbar>      
+<app-test *ngIf="!showNav"></app-test>  -->

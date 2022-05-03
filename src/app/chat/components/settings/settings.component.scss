@@ -1,0 +1,222 @@
+.setttings-tot-div{
+    color: #495057;
+    font-family: Public Sans,sans-serif;
+    font-weight: 600;
+}
+.settings-head{
+ h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 22px 1px 1px 25px;
+ }
+}
+.avtar {
+    // position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100px;
+    position: relative;   
+}
+.avatar-lg {
+    height: 6rem;
+    width: 6rem;
+}
+.edit{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #e6ebf5!important;
+    padding: 8px 6px;
+    mat-icon{
+          font-size: 17px;
+        }
+}
+.edit:hover, .privacy-dropdown:hover{
+    background-color:#bdcde5 !important;
+}
+.avatar-image-name{
+    text-align: center;
+    h4{
+        color: #495057;
+        font-family: Public Sans,sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+::ng-deep .my-menu {
+    width: 150px;
+    padding: 10px 5px;
+    button{
+        height: 40px;
+    }
+    mat-icon {
+        float: right;
+        padding-top: 13px;
+    /* margin-left: 12px; */
+        padding-left: 17px;
+    }
+}
+.avatar-status{
+    display: flex;
+}
+.down-arrow{
+    font-size: 16px;
+}
+
+
+.accordion-tot-div{
+    margin-top: 100px;
+    padding: 0px 15px 0px 30px;
+}
+//------------------------------------------------
+
+.mat-expansion-panel-header:not([aria-disabled=true]) {
+    cursor: pointer;
+    height: 45px;
+}
+
+.mat-expanded, .mat-expansion-panel {
+    .mat-expansion-panel-header:hover{
+        background-color:   #f6f7fb;
+    }
+    .mat-expansion-panel-header{
+        background-color:   #f6f7fb;
+    }
+}
+.icon-size-person-and-attach {
+    font-size: 18px;
+    padding-top: 3px
+}
+.mat-panel-title-span:hover {
+    
+        text-decoration: underline;
+}
+
+.mat-expansion-panel-body {
+    padding-top: 15px !important;
+}
+.attach-file-card {
+    // margin: 22px 0px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 1px solid #f0eff5!important;
+    border-radius: 5px;
+    border
+    .row {
+        padding-top: 0px;
+        padding-bottom: 0pxpx;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
+.attach-file-card-file-icon-div {
+    padding: 10px;
+    font-size: 22px;
+    
+    i{
+        // border: 1px solid gray;
+        border-radius: 5px;
+        background-color: #dad8fc;
+        
+        color: #726be5;
+        padding: 10px 13px;
+    }
+}
+.attach-file-card-file-size-div {
+    padding-top: 2px;
+    // p{
+    //    font-family:  Public Sans, sans-serif;
+    //    color: #495057;
+    //    font-weight: 600;
+    //     font-size: 15px;
+    //     padding: 0%;
+    // }
+}
+.attach-file-card-file {
+    
+    padding-left: 22px;
+    h5 {
+        font-size: 13px;
+        margin-bottom: 0%;
+    }
+    p{
+        font-size: 13px;
+        font-weight: 430;
+    }
+    
+}
+.attach-file-card-download-icon{
+    padding-top: 10px;
+    .bi-download {
+        padding-right: 12px;
+    }
+    .bi-three-dots {
+        padding-right: 12px;
+    }
+
+}
+.download-icon {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.name-edit{
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.name-edit-button{
+    float: right;
+    border: none;
+    padding: 7px 10px 0px 0px;
+    border-radius:3px;
+    mat-icon{
+        font-size: 14px;
+    }
+
+}
+.privacy-dropdown {
+    float: right;
+    border-radius: 5px;
+    background-color: #f6f7fb;
+    border: none;
+    padding: 5px 3px 1px 10px;
+
+}
+.side-toogle-position{
+    float: right;
+}
+.toogle-bg-color {
+    background-color: white !important;
+}
+
+// .avatar-image::after {
+//     content: "hai";
+    
+// }
+
+
+
+// .edit{
+//     position: absolute;
+//     right: 133px;
+//     bottom: 0;
+//     border: none;
+//     border-radius: 50%;
+//     width: 30px;
+//     height: 30px;
+//     background-color: red;
+//     padding: 7px 1px;
+//     mat-icon{
+//         font-size: 15px;
+//     }
+// }

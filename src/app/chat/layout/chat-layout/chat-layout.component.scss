@@ -1,0 +1,50 @@
+.layout {
+  margin-right: 0;
+}
+
+.nav-bar-tab {
+  width: 75PX;
+  display: block;
+}
+
+.nav-bar-tab-bootom {
+  display: none;
+}
+
+.nav-bar-tab-content {
+  width: 380px;
+  margin-left: 12px;
+  padding-left: 0px;
+  background-color: #f6f7fb;
+  display: block;
+}
+
+.message-body-content {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-bar-tab {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .nav-bar-tab-bootom {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-bar-tab-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .message-body-content {
+    display: none;
+  }
+}

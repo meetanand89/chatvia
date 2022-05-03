@@ -1,0 +1,271 @@
+<div class="setttings-tot-div">
+  <div class="settings-head">
+    <h4>Settings</h4>
+  </div>
+  <div class="avtar">
+    <img src="assets/images/avatar-1.jpg" class="rounded rounded-circle img-thumbnail avatar-lg " height="96">
+    <button class="edit">
+      <mat-icon>edit</mat-icon>
+    </button>
+  </div>
+  <div class="avatar-image-name">
+    <h4>Patrick Smith</h4>
+    <div class="chatmenu-con">
+      <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
+        class="border-0 mat-icon-button">
+        <div class="avatar-status">
+          <div class="col">
+            Available
+          </div>
+          <div class="col ">
+            <mat-icon class="down-arrow">keyboard_arrow_down</mat-icon>
+          </div>
+        </div>
+        <!-- <p>Available<mat-icon>keyboard_arrow_down</mat-icon></p> -->
+      </button>
+      <mat-menu #menu="matMenu" xPosition="before" class="my-menu">
+        <button mat-menu-item>
+          <span>Available</span>
+        </button>
+        <button mat-menu-item>
+          <span>Busy</span>
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="accordion-tot-div">
+    <mat-accordion>
+      <mat-expansion-panel hideToggle [expanded]="true">
+        <mat-expansion-panel-header class="mat-accordion-mat-panel">
+          <mat-panel-title>
+            <span class="mat-panel-title-span"> Personal Info</span>
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="card-body">
+          <div class="ng-star-inserted name-edit">
+            <div class="col">
+              <p class="text-muted mb-1">Name</p>
+              <h5 class="font-size-14">Patricia Smith</h5>
+            </div>
+            <div class="col">
+              <button class="name-edit-button">
+                <mat-icon>edit</mat-icon>Edit
+              </button>
+            </div>
+          </div>
+          <div class="mt-4 ng-star-inserted">
+            <p class="text-muted mb-1">Email</p>
+            <h5 class="font-size-14">abc@123.com</h5>
+          </div>
+          <div class="mt-4 ng-star-inserted">
+            <p class="text-muted mb-1">Time</p>
+            <h5 class="font-size-14">11:40 AM</h5>
+          </div>
+          <div class="mt-4 ng-star-inserted">
+            <p class="text-muted mb-1">Location</p>
+            <h5 class="font-size-14 mb-0">California, USA</h5>
+          </div>
+        </div>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle >
+        <mat-expansion-panel-header class="mat-accordion-mat-panel">
+          <mat-panel-title>
+            <span class="mat-panel-title-span">Privacy</span>
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="card-body">
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Profile photo</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col">
+              <div class="chatmenu-con">
+                <button mat-icon-button [matMenuTriggerFor]="menu_1" aria-label="Example icon-button with a menu"
+                  class=" mat-icon-button privacy-dropdown">
+                  <div class="avatar-status ">
+                    <div class="col">
+                      Everyone
+                    </div>
+                    <div class="col ">
+                      <mat-icon class="down-arrow">keyboard_arrow_down</mat-icon>
+                    </div>
+                  </div>
+                  <!-- <p>Available<mat-icon>keyboard_arrow_down</mat-icon></p> -->
+                </button>
+                <mat-menu #menu_1="matMenu" xPosition="before" class="my-menu">
+                  <button mat-menu-item>
+                    <span>Everyone</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Selected</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Nobody</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Last seen</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col">
+              <div class="chatmenu-con side-toogle-position">
+                <mat-slide-toggle class="toogle-bg-color" ></mat-slide-toggle>                
+              </div>
+            </div>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Status</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col">
+              <div class="chatmenu-con">
+                <button mat-icon-button [matMenuTriggerFor]="menu_2" aria-label="Example icon-button with a menu"
+                  class=" mat-icon-button privacy-dropdown">
+                  <div class="avatar-status ">
+                    <div class="col">
+                      Everyone
+                    </div>
+                    <div class="col ">
+                      <mat-icon class="down-arrow">keyboard_arrow_down</mat-icon>
+                    </div>
+                  </div>
+                  <!-- <p>Available<mat-icon>keyboard_arrow_down</mat-icon></p> -->
+                </button>
+                <mat-menu #menu_2="matMenu" xPosition="before" class="my-menu">
+                  <button mat-menu-item>
+                    <span>Everyone</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Selected</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Nobody</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Read receipts</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col">
+              <div class="chatmenu-con side-toogle-position">
+                <mat-slide-toggle ></mat-slide-toggle>                
+              </div>
+            </div>
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Groups</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col">
+              <div class="chatmenu-con">
+                <button mat-icon-button [matMenuTriggerFor]="menu_3" aria-label="Example icon-button with a menu"
+                  class=" mat-icon-button privacy-dropdown">
+                  <div class="avatar-status ">
+                    <div class="col">
+                      Everyone
+                    </div>
+                    <div class="col ">
+                      <mat-icon class="down-arrow">keyboard_arrow_down</mat-icon>
+                    </div>
+                  </div>
+                  <!-- <p>Available<mat-icon>keyboard_arrow_down</mat-icon></p> -->
+                </button>
+                <mat-menu #menu_3="matMenu" xPosition="before" class="my-menu">
+                  <button mat-menu-item>
+                    <span>Everyone</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Selected</span>
+                  </button>
+                  <button mat-menu-item>
+                    <span>Nobody</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+          </div>
+          <mat-divider></mat-divider>          
+        </div>
+      </mat-expansion-panel>
+
+<!--  -->
+      <mat-expansion-panel hideToggle >
+        <mat-expansion-panel-header class="mat-accordion-mat-panel">
+          <mat-panel-title>
+            <span class="mat-panel-title-span">Security</span>
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="card-body">          
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Show security notification</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>
+            <div class="col-2">
+              <div class="chatmenu-con side-toogle-position">
+                <mat-slide-toggle class="toogle-bg-color" ></mat-slide-toggle>                
+              </div>
+            </div>
+          </div> 
+        </div>
+      </mat-expansion-panel>
+<!--  -->
+
+
+      <mat-expansion-panel hideToggle >
+        <mat-expansion-panel-header class="mat-accordion-mat-panel">
+          <mat-panel-title>
+            <span class="mat-panel-title-span">Help</span>
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="card-body">
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">FAQs</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>            
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Contact</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>            
+          </div>
+          <mat-divider></mat-divider>
+          <div class="ng-star-inserted name-edit ">
+            <div class="col">
+              <p class="text-muted mb-1">Terms & Privacy policy</p>
+              <!-- <h5 class="font-size-14">Patricia Smith</h5> -->
+            </div>            
+          </div>
+          <mat-divider></mat-divider>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

@@ -1,0 +1,465 @@
+// ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+//     background-color: lightcyan;
+//     border-radius: 5px;
+//   }
+//   mat-form-field {
+//     width: 100%;
+//   }
+
+//   .my-class{
+
+//         position: absolute;
+//         width: 55%;
+//         bottom: 10px;
+
+
+//   }
+//   .anyClass {
+//     height:650px;
+//     overflow-y: scroll;
+//   }
+
+
+
+
+//   .content-1 {
+//     // background-color: lightcoral;
+//     // background-color: white;
+//     display: flex;
+//     position: relative;
+//     top:0; 
+
+
+//   }
+
+//   .content-2 {
+//       background-color: lightgreen;
+//       background-color: white;
+
+
+//   }
+
+//   .content-3 {
+//     display: flex;
+//     position: relative;
+//       bottom: 0;
+
+//   }
+
+//   h4 { width:100%; text-align:center; border-bottom: 1px solid gray; line-height:0.1em; margin:10px 0 20px; } 
+// h4 span { background:#fff; padding:0 10px; }
+
+// .top-container {
+//   // margin-left: 0px;
+//   padding-left: 1px;
+// }
+
+// .dx {
+//   padding: 12px 20px;
+//     background-color: #7269ef;
+//     border-radius: 8px 8px 8px 0;
+//     color: #fff;
+//      position: relative;
+// }
+
+
+// .right {
+//   position: relative;
+//   background: aqua;
+//   text-align: right;
+//   min-width: 45%;
+//   padding: 10px 15px;
+//   border-radius: 6px;
+//   border: 1px solid #ccc;
+//   float: right;
+//   right: 20px;
+// }
+
+// .right::before {
+//   content: '';
+//   position: absolute;
+//   visibility: visible;
+//   bottom: -15px;
+//   left: 0px;
+//   border: 10px solid transparent;
+//   border-top: 10px solid #ccc;
+// }
+
+// .right::after {
+//   content: '';
+//   position: absolute;
+//   visibility: visible;
+//   bottom: 0px;
+//   left: -8px;
+//   border: 10px solid transparent;
+//   border-top: 10px solid aqua;
+//   clear: both;
+// }
+
+// .container-fluid {
+//    padding-left: 7px;
+// }
+
+.container {
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  max-height: 90px;
+  padding: 20px 20px 20px 20px;
+
+}
+
+.chat-header {
+  font-family: Public Sans, sans-serif;
+  color: rgb(73, 80, 87);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+
+.chat-hader-nav {
+  color: rgb(122, 127, 154);
+  padding: 5px 5px;
+}
+
+.content {
+  height: calc(100% - 180px);
+  overflow-y: scroll;
+}
+
+.chat-message-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.chat-message-1-image {
+
+  display: flex;
+  width: 40px;
+  height: 100%;
+  padding-bottom: 10px;
+  margin-right: 20px;
+
+}
+
+.chat-message-1-image img {
+
+  align-self: flex-end;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+
+  // padding: 20px 20px 20px 20px;
+}
+
+.chat-lef-div {
+  width: auto;
+  font-size: 15px;
+}
+
+.right-chat-image {
+
+  display: flex;
+
+
+}
+
+.right-chat-image img {
+  align-self: flex-end;
+}
+
+.chat-right-div {
+  width: auto;
+}
+
+s .text-color {
+  color: hsla(0, 0%, 100%, .5);
+
+}
+
+.left-chat-name {
+  position: relative;
+  padding-top: 5px;
+  padding-left: 0;
+}
+
+
+::ng-deep .mat-menu-content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.contact-drop-down{
+  text-align: end;
+}
+
+.mat-icon-button{
+  background-color:transparent;
+  color: #7a7f9a;
+  mat-icon{
+      font-size: 18px;
+  }
+  
+}
+
+::ng-deep.my-menu {
+    width: 150px;
+    padding: 10px 5px;
+    button{
+        height: 40px;
+    }
+    mat-icon {
+        float: right;
+        padding-top: 5px;
+    /* margin-left: 12px; */
+        padding-left: 17px;
+     }
+}
+
+
+
+.mat-menu-item {
+  line-height: 35px;
+  height: 35px;
+}
+
+.chat-box {
+  color: white;
+  padding: 12px 19px 0px 16px;
+  height: auto;
+  // min-height: 60px;
+  width: auto;
+  // max-width: 200px;
+  background-color: #7369ee;
+  border-radius: 8px 8px 8px 0;
+  position: relative;
+
+  i {
+    font-size: 9px;
+  }
+
+}
+
+.chat-box::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-color: #7369ee transparent transparent #7369ee;
+  border-width: 5px;
+  border-style: solid;
+}
+
+
+.chat-box1 {
+  color: black;
+  padding: 12px 19px 0px 16px;
+  height: auto;
+  // min-height: 60px;
+  width: auto;
+  // max-width: 200px;
+  background-color: #f6f7fb;
+  border-radius: 8px 8px 0 8px;
+  position: relative;
+
+  i {
+    font-size: 9px;
+  }
+
+}
+
+.chat-box1::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  border-color: #f6f7fb #f6f7fb transparent transparent;
+  border-width: 5px;
+  border-style: solid;
+}
+
+
+.right-chat-box {
+  color: black;
+  padding: 12px 19px 0px 16px;
+  height: auto;
+  // min-height: 60px;
+  width: auto;
+  // max-width: 200px;
+  background-color: #efeef4;
+  border-radius: 8px 8px 0 8px;
+  position: relative;
+
+  i {
+    font-size: 9px;
+  }
+
+}
+
+.right-chat-box::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  border-color: #efeef4 #efeef4 transparent transparent;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.right-chat-name {
+  text-align: end;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 0;
+}
+
+
+#content {
+  width: 100%;
+  max-height: calc(100% - 120px);
+  overflow-y: scroll;
+  padding: 0px 10% !important;
+  margin-top: 60px !important;
+}
+
+.fixed-header {
+  width: 100%;
+  height: 60px;
+  background: red;
+  position: fixed;
+  top: 0;
+
+}
+
+footer {
+
+
+  width: 100%;
+  height: 60px;
+  background: blue;
+  position: fixed;
+  bottom: 0;
+}
+
+// ------------------------new
+
+.bi-record-circle-fill {
+  font-size: 10px;
+  color: #06d6a0;
+}
+
+
+.mat-form-field {
+  width: 100%;
+
+}
+
+::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 0%;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  border-color: #e7ebf6;
+  background-color: #e7ebf6;
+  border-radius: 5px;
+}
+
+.send-button {
+  background-color: #7369ee;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.hr-text {
+  background-color: white;
+  // line-height: 1em;
+  position: relative;
+  // outline: 0;
+  // border: 0;
+  // color: red;
+
+  text-align: center;
+  height: 1.5em;
+  opacity: 1;
+
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    // background: linear-gradient(to right, transparent, #818078, transparent);
+    background-color: #efeef4;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    // display: inline-block;
+    // color: red;
+
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    // color:  black ;
+    background-color: #efeef4;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+  }
+}
+
+.attach-file-card-file-size-div {
+  padding-top: 2px;
+  // p{
+  //    font-family:  Public Sans, sans-serif;
+  //    color: #495057;
+  //    font-weight: 600;
+  //     font-size: 15px;
+  //     padding: 0%;
+  // }
+}
+
+.attach-file-card-file {
+
+  padding-left: 22px;
+
+  h5 {
+    font-size: 13px;
+    margin-bottom: 0%;
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 430;
+  }
+
+}
+
+.attach-file-card-download-icon {
+  padding-top: 10px;
+
+  .bi-download {
+    padding-right: 12px;
+  }
+
+  .bi-three-dots {
+    padding-right: 12px;
+  }
+
+}

@@ -1,0 +1,113 @@
+.contacts-tot-div {    
+    color: #495057;
+    font-family: Public Sans,sans-serif;
+    font-weight: 600;   
+     
+}
+.contact-align{
+    padding: 30px 15px 30px 30px;
+}
+.contacts{
+    display: flex;
+    width: 100%;
+}
+.contact-txt {
+    float: left;
+    font-size: 20px;
+}
+.contact-icon {
+    text-align: end;
+    color: #878a92;
+    margin-right: 10px;
+}
+.serach-input-tot-div {
+
+    margin-top: 20px;
+    
+    .search-icon{
+        padding: 0 5px;
+        color: #A4A0A6;
+    }
+    .search-input {
+        margin-left: 15px;
+    }
+}
+.mat-form-field {
+    width: 100%;
+  }     
+  :host ::ng-deep div.mat-form-field-outline-start{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+:host ::ng-deep .mat-form-field-outline-gap{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+:host ::ng-deep .mat-form-field-outline-end{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+.nobull {
+
+    list-style: none;
+    padding-left: 0;
+    li {
+        display: flex;       
+        padding: 10px 20px;
+        //  border: 1px solid;
+        font-size: 13px;
+        color: #495057;
+    font-family: Public Sans,sans-serif;
+    font-weight: 600;
+    }
+  
+}
+.contact-drop-down{
+    text-align: end;
+}
+
+.mat-icon-button{
+    background-color:transparent;
+    color: #7a7f9a;
+    mat-icon{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+::ng-deep.my-menu {
+    width: 150px;
+    padding: 10px 5px;
+    button{
+        height: 40px;
+    }
+    mat-icon {
+        float: right;
+        padding-top: 13px;
+    /* margin-left: 12px; */
+        padding-left: 17px;
+     }
+}
+
+
+.alphabet
+{
+    color: #7269ef;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

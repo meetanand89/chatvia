@@ -1,0 +1,137 @@
+.groups-tot-div {
+    // margin-left: 28px;
+    color: #495057;
+    font-family: Public Sans,sans-serif;
+    font-weight: 600;
+   
+     
+}
+.groups-align{
+    padding: 30px 15px 30px 30px;
+}
+.groups{
+    display: flex;
+    width: 100%;
+}
+.group-txt {
+    float: left;
+    font-size: 20px;
+}
+.group-icon {
+    text-align: end;
+    color: #878a92;
+    margin-right: 10px;
+}
+.serach-input-tot-div {
+
+    margin-top: 20px;
+    
+    .search-icon{
+        padding: 0 5px;
+        color: #A4A0A6;
+    }
+    .search-input {
+        margin-left: 15px;
+    }
+}
+.mat-form-field {
+    width: 100%;
+  }     
+  :host ::ng-deep div.mat-form-field-outline-start{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+:host ::ng-deep .mat-form-field-outline-gap{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+:host ::ng-deep .mat-form-field-outline-end{
+    border-color: 0 !important;
+    border-width: 0px !important;
+}
+
+.nobull {
+    list-style: none;
+    padding-left: 0;
+    li {
+        // background-color: bisque;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px 15px 15px 5px;
+        // border: 1px solid;
+        
+    }
+    li:hover{
+        background-color: #e7ebf6;
+        border-radius: 5px;
+    }
+    
+}
+.group-list-div {
+    display: flex;
+    padding-left: 5px;
+}
+.group-list {
+    min-width: 50px;
+    max-width: 50px;
+    margin-right: 5px;
+    // margin-top: 5px;
+}
+.avatar-icons-instead-txt{
+    // border: 1px solid;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 9px 12px;
+    color: #7269ef;
+    background-color: #C9CAF4;
+    font-weight: 600;
+}
+.group-list-name {
+    font-size: 13px;
+    font-family: Public Sans,sans-serif;
+    font-weight: 600;
+    color: #495057;
+    p {
+        color: #7a7f9a;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+}
+.message-count {
+    
+    display: flex;
+    
+    width: auto;
+    justify-content: end;
+    // flex-direction: column;
+    
+    // max-width: 60px;
+    // min-width: 60px;
+    // text-align: end;
+
+    padding: 0;
+    font-size: 11px;
+    color: #7a7f9a;
+    p {
+        
+        //  margin:  0 0 0 35px;
+        //  margin-left: 35px;
+        // text-align: center;
+        // margin-right: 5px;
+        margin-bottom: 0px;
+        border-radius: 8px;
+        font-size: 10px;
+        width: auto;
+        
+        // border: 1px solid;
+        // border-radius: 50%;
+        padding: 0px 5px 0 5px;
+        color: #ef476f;
+        background-color: rgba(239,71,111,.18);
+
+    }
+}
