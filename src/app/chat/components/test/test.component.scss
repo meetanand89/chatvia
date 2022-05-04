@@ -44,10 +44,10 @@
 
 .tab-content {
 
-    width: 380px;
+    // width: 380px;
     // background-color: #f7f7ff;
     background-color: #f6f7fb;
-    height: 100vh;
+    // height: 100vh;
     
 }
 h1,h2,h3,h4,h5,h6{
@@ -220,6 +220,7 @@ h4{
         
     }
     .attach-file-card-download-icon{
+        justify-content: end;
         padding-top: 10px;
         .bi-download {
             padding-right: 12px;
