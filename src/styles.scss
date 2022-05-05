@@ -5,8 +5,49 @@ body {
     // margin: 0;
     // font-family: Helvetica, Arial, Sans-Serif; 
     font-family: Public Sans,sans-serif;
-    overflow-y:hidden;
+    // overflow-y:hidden;
     overflow-x: hidden;
     
 }
 
+
+/* Common Scrollbar to all*/
+
+.scrollbar {
+    // height: 400px;
+    
+    display: block;
+    padding-right: 3px;
+    
+      overflow: auto;
+    // overflow: hidden;
+}
+.scrollbar:hover {
+    overflow-y: auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(133, 133, 133); 
+    border-radius: 10px;
+    
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+     background: rgb(133, 133, 133); 
+  }

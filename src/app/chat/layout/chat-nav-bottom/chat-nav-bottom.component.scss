@@ -1,16 +1,15 @@
+
 .side-menu {
     // min-width: 75px;
     // max-width: 75px;
-    // height: 100vh;
-     
-    text-align: c+enter;
+    // height: 100vh;     
+    text-align: center;
     font-size: 24px;
     color: #878a92;
     line-height: 56px;
     display: flex;
     flex-direction: column!important;
-    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
-    
+    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);    
 
   }
 
@@ -19,19 +18,17 @@ ul {
   list-style-type: none;
 
   li {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    // margin-top: 7px;
+    // margin-bottom: 7px;
+    margin: auto;
     border: none;
     cursor: pointer;
-
-    :active {
-      color: #7269ef;
-      background-color: #f7f7ff;
-    }
+    a { 
+        color: inherit;
+     } 
   }
 }
-
 .link_active {
-  color: #7269ef;
+  color: #7269ef !important;
   background-color: #f7f7ff;
 }

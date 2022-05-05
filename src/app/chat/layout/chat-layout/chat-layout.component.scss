@@ -7,8 +7,14 @@
   display: block;
 }
 
-.nav-bar-tab-bootom {
+.nav-bar-tab-bottom {
   display: none;
+  padding-right: 0;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+
 }
 
 .nav-bar-tab-content {
@@ -31,7 +37,7 @@
 
 
 @media only screen and (max-width: 1000px) {
-  .nav-bar-tab-bootom {
+  .nav-bar-tab-bottom {
     display: block;
     width: 100%;
   }
