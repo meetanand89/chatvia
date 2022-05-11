@@ -22,7 +22,8 @@ import { SettingsComponent } from './components/settings/settings.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { ChatNavBottomComponent } from './layout/chat-nav-bottom/chat-nav-bottom.component';
 import { ChatContentSlideComponent } from './components/chat-content-slide/chat-content-slide.component';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
+import { ChatSlideRightContentComponent } from './components/chat-slide-right-content/chat-slide-right-content.component';
 
 
 // import { NgbAccordion } from '@ng-bootstrap/ng-bootstrap';
@@ -40,7 +41,8 @@ import { ChatContentSlideComponent } from './components/chat-content-slide/chat-
     ContactsComponent,
     SettingsComponent,
     ChatNavBottomComponent,
-    ChatContentSlideComponent
+    ChatContentSlideComponent,
+    ChatSlideRightContentComponent
   ],
   imports: [
     CommonModule,
@@ -52,7 +54,8 @@ import { ChatContentSlideComponent } from './components/chat-content-slide/chat-
     MatCardModule,
     MatMenuModule,
     MatExpansionModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatTooltipModule
     // NgbAccordion
   ]
 })

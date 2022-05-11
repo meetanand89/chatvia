@@ -1,150 +1,129 @@
-<div *ngIf="!showChatSlide" class="chat-total-div" >
-    <div class="container-1">
-        <div class="chat">
-            <p>Chats</p>
-        </div>
-        <div class="serach-input-tot-div">
-            <mat-form-field appearance=outline>  
-                <!-- <mat-label> Outline form field </mat-label>   -->
-                <mat-icon matPrefix class="search-icon"> search </mat-icon>
-                <input matInput placeholder = "Serarch messages or users" class="search-input">                    
-              </mat-form-field>
-        </div>
-        
+<div *ngIf="!showChatSlide" class="chat-total-div">
+  <div class="container-1">
+    <div class="chat">
+      <p>Chats</p>
     </div>
-    <div class="chat-users-tot-div">
-        <div class="chat-user">
-            
-            <div class="chat-user-name">
-                <img _ngcontent-abh-c122="" src="assets/images/avatar-2.jpg" height="33" class="rounded-circle">
-                <p>Patrick</p>
-            </div>
-        </div>
-        <!--2--->
-        <div class="chat-user">
-            
-            <div class="chat-user-name">
-                <img _ngcontent-abh-c122="" src="assets/images/avatar-4.jpg" height="33" class="rounded-circle">
-                <p>Doris</p>
-            </div>
-        </div>
-        <!--3-->
-        <div class="chat-user">
-            
-            <div class="chat-user-name">
-                <img _ngcontent-abh-c122="" src="assets/images/avatar-5.jpg" height="33" class="rounded-circle">
-                <p>Emily</p>
-            </div>
-        </div>
-        <!--4-->
-        <div class="chat-user">
-            
-            <div class="chat-user-name">
-                <img _ngcontent-abh-c122="" src="assets/images/avatar-6.jpg" height="33" class="rounded-circle">
-                <p>Steve</p>
-            </div>
-        </div>
+    <div class="serach-input-tot-div">
+      <mat-form-field appearance=outline>
+        <!-- <mat-label> Outline form field </mat-label>   -->
+        <mat-icon matPrefix class="search-icon"> search </mat-icon>
+        <input matInput placeholder="Serarch messages or users" class="search-input">
+      </mat-form-field>
     </div>
-    <div class="recent-tot-div">
-        <div>
-            <p class="recent-head-text">Recent</p>
-        </div>
-        <div>
-            <ul class="nobull">
-                <li (click)="messageTab()">
-                    <a>
-                        <div class="chat-list-div">
-                            <div class="col chat-list">
-                                <div class="chat-list-avatar">
-                                    <img _ngcontent-abh-c122="" src="assets/images/avatar-2.jpg" height="33" class="rounded-circle">
-                                </div>
-                            </div>
-                            
-                            <div  class="col chat-list-name">
-                                <span>Patrick Hendricks</span>
-                                <p>Hey! there I'm available</p>
-                            </div>
-                            <div class="col chat-time">
-                                <span>05 min</span>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <div class="chat-list-div">
-                            <div class="col chat-list">
-                                <div class="chat-list-avatar">
-                                    <img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
-                                </div>
-                            </div>
-                            
-                            <div  class="col chat-list-name">
-                                <span>Patrick Hendricks</span>
-                                <p>images</p>
-                            </div>
-                            <div class="col chat-time">
-                                <span>12 min</span>
-                                <p>02</p>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <div class="chat-list-div">
-                            <div class="col chat-list">
-                                <!-- <div class="chat-list-avatar" >
-                                    
-                                    <img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
-                                </div> -->
-                                <span class="avatar-icons-instead-txt">G</span>
-                            </div>
-                            
-                            <div  class="col chat-list-name">
-                                <span>Patrick Hendricks</span>
-                                <p>images</p>
-                            </div>
-                            <div class="col chat-time">
-                                <span>20 min</span>
-                                
-                                
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a>
-                        <div class="chat-list-div">
-                            <div class="col chat-list">
-                                <div class="chat-list-avatar">
-                                    <img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
-                                </div>
-                            </div>
-                            
-                            <div  class="col chat-list-name">
-                                <span>Patrick Hendricks</span>
-                                <p>images</p>
-                            </div>
-                            <div class="col chat-time">
-                                <span>10:12 AM</span>
-                                
-                                <p>01</p>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
+  </div>
+  <div class="chat-users-tot-div">
+    <div class="chat-user">
+      <div class="chat-user-name">
+        <img _ngcontent-abh-c122="" src="assets/images/avatar-2.jpg" height="33" class="rounded-circle">
+        <p>Patrick</p>
+      </div>
     </div>
+    <!--2--->
+    <div class="chat-user">
+      <div class="chat-user-name">
+        <img _ngcontent-abh-c122="" src="assets/images/avatar-4.jpg" height="33" class="rounded-circle">
+        <p>Doris</p>
+      </div>
+    </div>
+    <!--3-->
+    <div class="chat-user">
+      <div class="chat-user-name">
+        <img _ngcontent-abh-c122="" src="assets/images/avatar-5.jpg" height="33" class="rounded-circle">
+        <p>Emily</p>
+      </div>
+    </div>
+    <!--4-->
+    <div class="chat-user">
+      <div class="chat-user-name">
+        <img _ngcontent-abh-c122="" src="assets/images/avatar-6.jpg" height="33" class="rounded-circle">
+        <p>Steve</p>
+      </div>
+    </div>
+  </div>
+  <div class="recent-tot-div">
+    <div>
+      <p class="recent-head-text">Recent</p>
+    </div>
+    <div>
+      <ul class="nobull  scrollbar">
+        <li (click)="messageTab()">
+          <a>
+            <div class="chat-list-div">
+              <div class="col chat-list">
+                <div class="chat-list-avatar">
+                  <img _ngcontent-abh-c122="" src="assets/images/avatar-2.jpg" height="33" class="rounded-circle">
+                </div>
+              </div>
+              <div class="col chat-list-name">
+                <span>Patrick Hendricks</span>
+                <p>Hey! there I'm available</p>
+              </div>
+              <div class="col chat-time">
+                <span>05 min</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div class="chat-list-div">
+              <div class="col chat-list">
+                <div class="chat-list-avatar">
+                  <img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
+                </div>
+              </div>
+              <div class="col chat-list-name">
+                <span>Patrick Hendricks</span>
+                <p>images</p>
+              </div>
+              <div class="col chat-time">
+                <span>12 min</span>
+                <p>02</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div class="chat-list-div">
+              <div class="col chat-list">
+                <!-- <div class="chat-list-avatar" >
+<img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
+</div> -->
+                <span class="avatar-icons-instead-txt">G</span>
+              </div>
+              <div class="col chat-list-name">
+                <span>Patrick Hendricks</span>
+                <p>images</p>
+              </div>
+              <div class="col chat-time">
+                <span>20 min</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div class="chat-list-div">
+              <div class="col chat-list">
+                <div class="chat-list-avatar">
+                  <img _ngcontent-abh-c122="" src="assets/images/avatar-3.jpg" height="33" class="rounded-circle">
+                </div>
+              </div>
+              <div class="col chat-list-name">
+                <span>Patrick Hendricks</span>
+                <p>images</p>
+              </div>
+              <div class="col chat-time">
+                <span>10:12 AM</span>
+                <p>01</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
-
-
-<ng-template *ngIf="showChatSlide" #chatContainer>
-    
-</ng-template>
+<!-- <ng-template *ngIf="showChatSlide" #chatContainer>
+</ng-template> -->

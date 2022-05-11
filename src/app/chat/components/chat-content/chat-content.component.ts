@@ -12,4 +12,12 @@ export class ChatContentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  rightSideBar(){
+    // alert("Hai");
+    // document.getElementById("").hide;
+    document.getElementById("risht-side-menu").style.display="block"
+ 
+  }
+  
+
 }

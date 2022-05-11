@@ -3,11 +3,16 @@
     color: #495057;
     font-family: Public Sans,sans-serif;
     font-weight: 600;
+    height: 100vh;
    
      
 }
 .groups-align{
     padding: 30px 15px 30px 30px;
+}
+.groups-align-list{
+    padding: 30px 15px 30px 30px;
+    height: 335px;
 }
 .groups{
     display: flex;

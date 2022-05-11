@@ -12,6 +12,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
 
 // import { AngularFireModule } from n
 
@@ -32,6 +35,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatDividerModule,
     MatMenuModule,
     MatExpansionModule,
+    ReactiveFormsModule,
+    MatTooltipModule
     // AngularFireModule.initializeApp(environment.firebaseConfig),
     // AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     // AngularFireAuthModule,

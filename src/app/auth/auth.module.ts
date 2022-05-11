@@ -12,6 +12,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
     ResetPasswordComponent,
     SignUpComponent
   ],
-  imports: [
+  imports: [     
+    ReactiveFormsModule,
     CommonModule,
     AuthRoutingModule,
     MatSliderModule,

@@ -1,0 +1,205 @@
+<div class=" tab-content">
+  <div class="px-4 py-4 border-bottom">
+    <div class="row">
+      <div class="col">
+        <h4>My Profile</h4>
+      </div>
+      <div class="col text-end ">
+        <mat-icon (click)="rightSideBar_1()" role="button">close</mat-icon>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="mb-4">
+        <img src="assets/images/avatar-1.jpg" class="rounded rounded-circle img-thumbnail avatar-lg" height="96">
+      </div>
+      <h5 class="name-size mb-1">Patricia Smith</h5>
+    </div>
+    <div class="text-center mb-3">
+      <i class="bi bi-record-circle-fill text-success "></i> <span class=" text-muted text-active-font">Active</span>
+    </div>
+  </div>
+  <div class="scrollbar">
+    <div class="px-4 py-3 ">
+      <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and
+        regular than that of the individual.</p>
+      <mat-accordion>
+        <mat-expansion-panel hideToggle [expanded]="true">
+          <mat-expansion-panel-header class="mat-accordion-mat-panel">
+            <mat-panel-title>
+              <mat-icon class="icon-size-person-and-attach">person</mat-icon><span
+                class="mat-panel-title-span">Text</span>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="card-body">
+            <div class="ng-star-inserted">
+              <p class="text-muted mb-1">Name</p>
+              <h5 class="font-size-14">Patricia Smith</h5>
+            </div>
+            <div class="mt-4 ng-star-inserted">
+              <p class="text-muted mb-1">Email</p>
+              <h5 class="font-size-14">abc@123.com</h5>
+            </div>
+            <div class="mt-4 ng-star-inserted">
+              <p class="text-muted mb-1">Time</p>
+              <h5 class="font-size-14">11:40 AM</h5>
+            </div>
+            <div class="mt-4 ng-star-inserted">
+              <p class="text-muted mb-1">Location</p>
+              <h5 class="font-size-14 mb-0">California, USA</h5>
+            </div>
+          </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header class="mat-accordion-mat-panel ">
+            <mat-panel-title>
+              <mat-icon class="icon-size-person-and-attach">attach_file</mat-icon><span
+                class="mat-panel-title-span">Attached Files</span>
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="card-body">
+            <div class="attach-file-card">
+              <div class="row">
+                <div class="col-2 attach-file-card-file-icon-div">
+                  <i class="bi bi-file-earmark-text-fill"></i>
+                </div>
+                <div class="col attach-file-card-file">
+                  <h5>Admin-A.zip</h5>
+                  <p class="text-muted">12.5 MB</p>
+                </div>
+                <div class="col download-icon text-end attach-file-card-download-icon">
+                  <div>
+                    <i class="bi bi-download text-muted"></i>
+                  </div>
+                  <div>
+                    <button mat-icon-button [matMenuTriggerFor]="menu_A" aria-label="Example icon-button with a menu"
+                      class="border-0 menu-icon pr-1 bg-transparent">
+                      <mat-icon class="text-muted ">more_horiz</mat-icon>
+                    </button>
+                    <mat-menu #menu_A="matMenu">
+                      <button mat-menu-item>
+                        <span>Edit</span>
+                      </button>
+                      <button mat-menu-item>
+                        <span>Action</span>
+                      </button>
+                      <mat-divider></mat-divider>
+                      <button mat-menu-item>
+                        <span>Another action</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="attach-file-card">
+              <div class="row">
+                <div class="col-2 attach-file-card-file-icon-div">
+                  <i class="bi bi-image-fill"></i>
+                </div>
+                <div class="col attach-file-card-file">
+                  <h5>Image-1.jpg</h5>
+                  <p class="text-muted">4.2 MB</p>
+                </div>
+                <div class="col download-icon text-end attach-file-card-download-icon">
+                  <div>
+                    <i class="bi bi-download text-muted"></i>
+                  </div>
+                  <div>
+                    <button mat-icon-button [matMenuTriggerFor]="menu_A" aria-label="Example icon-button with a menu"
+                      class="border-0 menu-icon pr-1 bg-transparent">
+                      <mat-icon class="text-muted ">more_horiz</mat-icon>
+                    </button>
+                    <mat-menu #menu_A="matMenu">
+                      <button mat-menu-item>
+                        <span>Edit</span>
+                      </button>
+                      <button mat-menu-item>
+                        <span>Action</span>
+                      </button>
+                      <mat-divider></mat-divider>
+                      <button mat-menu-item>
+                        <span>Another action</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="attach-file-card">
+              <div class="row">
+                <div class="col-2 attach-file-card-file-icon-div">
+                  <i class="bi bi-image-fill"></i>
+                </div>
+                <div class="col attach-file-card-file">
+                  <h5>Image-2.jpg</h5>
+                  <p class="text-muted">3.1 MB</p>
+                </div>
+                <div class="col download-icon text-end attach-file-card-download-icon">
+                  <div>
+                    <i class="bi bi-download text-muted"></i>
+                  </div>
+                  <div>
+                    <button mat-icon-button [matMenuTriggerFor]="menu_A" aria-label="Example icon-button with a menu"
+                      class="border-0 menu-icon pr-1 bg-transparent">
+                      <mat-icon class="text-muted ">more_horiz</mat-icon>
+                    </button>
+                    <mat-menu #menu_A="matMenu">
+                      <button mat-menu-item>
+                        <span>Edit</span>
+                      </button>
+                      <button mat-menu-item>
+                        <span>Action</span>
+                      </button>
+                      <mat-divider></mat-divider>
+                      <button mat-menu-item>
+                        <span>Another action</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="attach-file-card">
+              <div class="row">
+                <div class="col-2 attach-file-card-file-icon-div">
+                  <i class="bi bi-file-earmark-text-fill"></i>
+                </div>
+                <div class="col attach-file-card-file">
+                  <h5>Landing-A.zip</h5>
+                  <p class="text-muted">6.7 MB</p>
+                </div>
+                <div class="col download-icon  attach-file-card-download-icon">
+                  <div>
+                    <i class="bi bi-download text-muted"></i>
+                  </div>
+                  <div>
+                    <button mat-icon-button [matMenuTriggerFor]="menu_A" aria-label="Example icon-button with a menu"
+                      class="border-0 menu-icon pr-1 bg-transparent">
+                      <mat-icon class="text-muted ">more_horiz</mat-icon>
+                    </button>
+                    <mat-menu #menu_A="matMenu">
+                      <button mat-menu-item>
+                        <span>Edit</span>
+                      </button>
+                      <button mat-menu-item>
+                        <span>Action</span>
+                      </button>
+                      <mat-divider></mat-divider>
+                      <button mat-menu-item>
+                        <span>Another action</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+</div>

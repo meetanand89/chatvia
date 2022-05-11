@@ -10,6 +10,7 @@ export class ChatContentSlideComponent implements OnInit {
 
   @ViewChild('chatContainer', { static: true, read: ViewContainerRef }) chatEntry!: ViewContainerRef;
 
+ position ="before";
   constructor(
     private resolver: ComponentFactoryResolver
   ) { }

@@ -39,7 +39,7 @@
     </div>
 </div> -->
 <div class="row">
-    <div class="">
+    <!-- <div> -->
         <div class="side-menu border bg-white">
             <div class="text-center pt-1">
                 <a>
@@ -50,10 +50,10 @@
             </div>
             <div class="nav-center">
                 <ul class="p-0 justify-content-center">
-                    <li (click)="navigateTo('chat/test')">
+                    <li (click)="navigateTo('chat/test')" matTooltip="Profile" matTooltipPosition="above">
                         <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/test') ? 'link_active' : ''"><mat-icon >person_outline</mat-icon></a>
                     </li>
-                    <li (click)="navigateTo('chat/chats')">
+                    <li (click)="navigateTo('chat/chats')" matTooltip="Chats" matTooltipPosition="above">
                         <a class="p-3 rounded" [ngClass]="isLinkActive('/chat/chats') ? 'link_active' : ''"><mat-icon >chat</mat-icon></a>
                     </li>
                     <li (click)="navigateTo('chat/groups')">
@@ -81,5 +81,5 @@
                 </ul>
             </div>
         </div>
-    </div>    
+    <!-- </div>     -->
 </div>

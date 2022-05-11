@@ -13,14 +13,43 @@
           </div>
         </div>
       </div>
-
       <div class="col-6  text-end chat-hader-nav">
-        <mat-icon class="px-4">search</mat-icon>
-        <mat-icon class="px-4">person_outline</mat-icon>
-        <mat-icon class="px-4">more_horiz</mat-icon>
-      </div>
-    </div>
+        
+        <button mat-icon-button [matMenuTriggerFor]="menu_search" aria-label="Example icon-button with a menu"
+            class="border-0 bg-white text-muted">
+            <mat-icon class="px-4">search</mat-icon>
+          </button>
+          <mat-menu #menu_search="matMenu" xPosition="after" class="my-menu">
+            <form class="example-form">
+              <mat-form-field appearance="outline">
+                <input matInput placeholder="Search.." style="width: 100%; ;">
+              </mat-form-field>
+            </form>            
+          </mat-menu>
 
+
+        <mat-icon class="px-4" (click)="rightSideBar()">person_outline</mat-icon>
+        
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
+            class="border-0 bg-white text-muted">
+            <mat-icon class="px-4">more_horiz</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu" xPosition="after" class="my-menu">
+            <button mat-menu-item>
+              <span>Archive</span>
+              <mat-icon>archive</mat-icon>
+            </button>
+            <button mat-menu-item>
+              <span>Muted</span>
+              <mat-icon>volume_off</mat-icon>
+            </button>
+            <button mat-menu-item>
+              <span>Deleted</span>
+              <mat-icon>delete_outline</mat-icon>
+            </button>            
+          </mat-menu>
+      </div>      
+    </div>
     <div class="row p-4 content">
       <div class="chat-message-1">
         <div class="avatar-con chat-message-1-image">
@@ -59,11 +88,8 @@
               <mat-icon>delete_outline</mat-icon>
             </button>
           </mat-menu>
-
-          
         </div>
       </div>
-
       <div class=""
         style="display:flex;flex-direction:row;justify-content: end;align-items: flex-end;height: auto;margin-bottom: 24px;">
         <div class="chatmenu-con" style="margin-bottom: 75px; margin-right:5px;">
@@ -71,7 +97,6 @@
             class="border-0 bg-white text-muted">
             <mat-icon>more_vert</mat-icon>
           </button>
-
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
               <span>Copy</span>
@@ -96,7 +121,6 @@
             <span class="chat-box1">Good morning, How are you? What about our next meeting?
               <p class="text-start text-muted"> <i class="bi bi-clock tex "></i>10.02</p></span>
           </div>
-
           <div class="row right-chat-name">
             <p style="padding: 5px 0 0 0;">Patricia Smith</p>
           </div>
@@ -105,12 +129,8 @@
           style="display:flex; align-items: flex-end; width:40px;height: 100%;padding-bottom: 18px; padding-left:25px; margin-right: 15px;">
           <img src="assets/images/avatar-1.jpg" height="33" class="rounded-circle">
         </div>
-
-
       </div>
-
       <hr class="hr-text" data-content="Today">
-
       <div class="chat-message-1">
         <div class="avatar-con chat-message-1-image">
           <img src="assets/images/avatar-4.jpg" height="33" class="rounded-circle">
@@ -148,11 +168,8 @@
               <mat-icon>delete_outline</mat-icon>
             </button>
           </mat-menu>
-
-          
         </div>
       </div>
-
       <div class=""
         style="display:flex;flex-direction:row;justify-content: end;align-items: flex-end;height: auto;margin-bottom: 24px;">
         <div class="chatmenu-con" style="margin-bottom: 75px; margin-right:5px;">
@@ -160,7 +177,6 @@
             class="border-0 bg-white text-muted">
             <mat-icon>more_vert</mat-icon>
           </button>
-
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
               <span>Copy</span>
@@ -185,7 +201,6 @@
             <span class="chat-box1">Wow that's great
               <p class="text-start text-muted"> <i class="bi bi-clock tex "></i>10.06</p></span>
           </div>
-
           <div class="row right-chat-name">
             <p style="padding: 5px 0 0 0;">Patricia Smith</p>
           </div>
@@ -194,14 +209,8 @@
           style="width:40px;height: 100%;padding-bottom: 18px; padding-left:25px; margin-right: 15px;">
           <img src="assets/images/avatar-1.jpg" height="33" class="rounded-circle">
         </div>
-
-
       </div>
-
-
-
       <!-- ------------------------------ -->
-
       <div class=""
         style="display:flex;flex-direction:row;justify-content: start;align-items: flex-start;height: auto;margin-bottom: 24px;">
         <div class="avatar-con left-chat-image"
@@ -224,7 +233,6 @@
                       class="border-0 text-muted" style="background-color: transparent; ">
                       <mat-icon style="color: white;">more_horiz</mat-icon>
                     </button>
-
                     <mat-menu #menu="matMenu">
                       <button mat-menu-item>
                         <span>Copy</span>
@@ -250,8 +258,6 @@
                     style="margin: 5px 10px; border-radius: 5px; border: 1px solid white;  ">
                 </div>
               </div>
-
-
               <p class="text-end text-color"> <i class="bi bi-clock "></i>10.02</p>
             </span>
           </div>
@@ -264,7 +270,6 @@
             class="border-0 bg-white text-muted">
             <mat-icon>more_vert</mat-icon>
           </button>
-
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
               <span>Copy</span>
@@ -285,18 +290,13 @@
           </mat-menu>
         </div>
       </div>
-
-
     </div>
     <div class="footer border-top" style="height: 90px; display: flex; align-items: center; ">
-
       <div class="col " style="width: calc(100% - 160px);">
         <form class="example-form">
           <mat-form-field appearance="outline">
             <input matInput placeholder="Enter message..." style="width: 100%; ;">
-
           </mat-form-field>
-
         </form>
       </div>
       <div class="col"
@@ -312,7 +312,6 @@
             <mat-icon class="text-white">play_arrow</mat-icon>
           </button>
         </div>
-
       </div>
     </div>
   </div>
